@@ -1,8 +1,8 @@
 
 public class Register {
 
-	int item, code, quantity;
-	String description, unit;
+	private int item, code, quantity;
+	private String description, unit;
 
 	public Register(int item, int code, String description, int quantity, String unit) {
 		this.item = item;
@@ -61,7 +61,7 @@ public class Register {
 
 	@Override
 	public String toString() {
-		return "Item: " + getItem() + " | Código: " + getCode() + " | Descrição: " + getDescription() + " | Quantidade: "
+		return "Item: " + getItem() + " | CÃ³digo: " + getCode() + " | DescriÃ§Ã£o: " + getDescription() + " | Quantidade: "
 				+ getQuantity() + " | Unidade: " + getUnit();
 	}
 }
